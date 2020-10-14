@@ -1,0 +1,14 @@
+import csv
+
+vote_count = 0 
+Khan = 0
+Correy = 0
+Li = 0 
+OTooley = 0 
+fifth = 0 
+
+
+with open("Resources\election_data.csv", "r") as file:
+    votes = csv.reader(file)
+    
+    

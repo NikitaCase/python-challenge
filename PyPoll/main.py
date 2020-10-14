@@ -8,7 +8,7 @@ OTooley = 0
 fifth = 0 
 
 
-with open("election.csv", "r") as file:
+with open("PyPoll\Resources\election_data.csv", "r") as file:
     votes = csv.reader(file)
     next(votes)
 
@@ -46,7 +46,7 @@ else:
 
 
 
-results = open("results.txt", "w")
+results = open("PyPoll\Analysis\election_results.txt", "w")
 
 results.write("Election Results\n-------------------------\nTotal Votes: " +str(vote_count))
 results.write("\n-------------------------")
@@ -59,14 +59,3 @@ results.write("\nWinner: " +winner+ "\n-------------------------")
 
 results.close()
 
-
-
-
-'''
-print(f"vote count: {vote_count}")
-print(f"Khan : {Khan}")
-print(f"Correy : {Correy}")
-print(f"Li : {Li}")
-print(f"O'Tooley : {OTooley}")
-print(f"Fifth Candidate : {fifth}")
-'''
