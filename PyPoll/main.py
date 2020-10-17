@@ -28,7 +28,7 @@ with open("PyPoll\Resources\election_data.csv", "r") as file:
 
 KhanP = round(((Khan/vote_count)*100),3)
 CorreyP = round(((Correy/vote_count)*100),3)
-LiP = round(((Li/vote_count)*100),6)
+LiP = round(((Li/vote_count)*100),3)
 OTooleyP = round(((OTooley/vote_count)*100),3)
 if fifth >0:
     fifthP = round(((fifth/vote_count)*100),3)
