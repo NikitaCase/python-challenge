@@ -46,6 +46,18 @@ else:
 
 
 
+
+
+print(f"vote count: {vote_count}")
+print(f"Khan : {Khan}")
+print(f"Correy : {Correy}")
+print(f"Li : {Li}")
+print(f"O'Tooley : {OTooley}")
+print(f"Fifth Candidate : {fifth}")
+
+
+
+
 results = open("results.txt", "w")
 
 results.write("Election Results\n-------------------------\nTotal Votes: " +str(vote_count))
@@ -62,11 +74,4 @@ results.close()
 
 
 
-'''
-print(f"vote count: {vote_count}")
-print(f"Khan : {Khan}")
-print(f"Correy : {Correy}")
-print(f"Li : {Li}")
-print(f"O'Tooley : {OTooley}")
-print(f"Fifth Candidate : {fifth}")
-'''
+

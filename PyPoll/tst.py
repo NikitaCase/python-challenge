@@ -15,10 +15,3 @@ with open("PyPoll\Resources\election_data.csv", "r") as file:
         print(wote)
         break
 
-'''
-with open(source) as csv_file:
-    election_data = csv.reader(csv_file, delimeter = ",")
-    csv_header = next(csv_file)
-    print(f"Header: {csv_header}")
-'''
-    
